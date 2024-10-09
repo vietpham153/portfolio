@@ -1,0 +1,61 @@
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.service{
+    background: var(--bg-secondary);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 40px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 20px;
+}
+.service .icon{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+.service__content{
+    flex: 1;
+}
+.service__content .title{
+    color: var(--primary-variant);
+}
+.service__content .description{
+    margin: 20px 0;
+    font-size: 15px;
+    color: var(--color-light);
+}
+.service .connect-btn{
+    color: var(--color-light);
+
+    margin: auto;
+}
+.service .connect-btn:hover{
+    color: var(--color-white);
+}
+.service .connect-btn .magic-button-conttent{
+    border-radius: 40px;
+}
+
+/* Responsive design */
+
+@media only screen and ( max-width: 1024px){
+    .services__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .service{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    .services__container{
+        grid-template-columns: 100%;
+        gap: 1.5rem;
+    }
+}

@@ -1,0 +1,54 @@
+.magic-button{
+    position: relative;
+    display: inline-flex;
+    height: 48px;
+    width: 100%;
+    max-width: 240px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    padding: 1px;
+    color: var(--color-white);
+}
+.magic-button-background{
+    position: absolute;
+    inset: -1000%;
+    background: conic-gradient(
+        from 90deg at 50% 50%,
+        #e2cbff 0%,
+        var(--primary) 50%,
+        #e2cbff 100%
+    );
+}
+.magic-button:hover .magic-button-background{
+    animation: spin 2s linear infinite;
+}
+.magic-button.is-spinning .magic-button-background{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.magic-button-content{
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: var(--bg-secondary);
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    gap: 0.5rem;
+    cursor: pointer;
+
+}

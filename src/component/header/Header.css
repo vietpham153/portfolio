@@ -1,0 +1,69 @@
+header {
+    height: 100%;
+    min-height: 100vh;
+    padding-top: 9rem;
+    position: relative;
+}
+header .grid-kit{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+header .header__container{
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 20px;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+header .header__container .magic-button{
+        display: flex;
+        margin: 20px auto;
+}
+
+/* ----------Me---------- */
+header .me{
+    position: relative;
+}
+header .me img{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    height: 90%;
+}
+header .me .blob{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+header .me::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    z-index: 2;
+    background: linear-gradient(
+        to bottom, transparent, var(--bg-primary)
+    );
+}
+
+
+/* Responsive design */
+@media only screen and (min-wid: 1400px){
+    header {
+        min-height: auto;
+    }
+}
+@media only screen and (max-width: 900px){
+    header .header__container{
+        grid-template-columns: 100%;
+    }
+}

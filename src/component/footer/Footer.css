@@ -1,0 +1,34 @@
+footer{
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+    background: var(--bg-secondary);
+}
+.footer__socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.footer__socials a{
+    background: var(--bg-primary);
+    color: var(--color-light);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: solid 1px transparent;
+    box-shadow: var(--box-shadow-inset);
+}
+.footer__socials a:hover{
+    color: var(--color-white);
+    border-color: var(--primary);
+}
+.copyright{
+    color: var(--color-light);
+}
+@media only screen and (max-width:600px){
+    .footer__socials {
+        margin-bottom: 2.5rem;
+    }
+}

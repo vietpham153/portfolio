@@ -1,0 +1,110 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 450px auto;
+    gap: 30PX;
+}
+.about__boxes .box{
+    padding: 40px 20px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow-inset);
+}
+.about__boxes .box.intro{
+    background: linear-gradient(to top right, var(--bg-secondary) 50%, var(--primary));
+    margin-bottom: 30px;
+}
+.about__boxes h2{
+    margin-bottom: 20px;
+}
+.about__boxes .image__box{
+    width: 230px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.about__boxes .content{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url("../../assets/grid.svg");
+    padding: 30px;
+}
+.about__boxes .box.contact{
+    text-align: center;
+    background-image: linear-gradient(
+        -45deg, #ffeb3b, var(--primary), orangered
+    );
+    background-size: 400% 400%;
+    animation: gradient-bg 20s ease infinite;
+}
+@keyframes gradient-bg{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.about__card{
+    background: var(--bg-secondary);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    box-shadow: var(--box-shadow-inset);
+}
+.about__card:hover{
+    background: transparent;
+    border-color: var(--primary-variant);
+    cursor: default;
+}
+
+.about__icon{
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5{
+    font-size: 0.95rem;
+}
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+.about_content p{
+    margin: 2rem 0 2.6rem;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 1024px){
+    .about__container{
+        grid-template-columns: 100%;
+        gap: 0;
+    }
+    .about__content p{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px){
+    .about__cards{
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+    .about__content{
+        text-align: center;
+    }
+    .about_content p{
+        margin: 1.5rem 0;
+    }
+}

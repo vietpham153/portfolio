@@ -1,0 +1,31 @@
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 200;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: var(--transition);
+}
+#back-to-top .progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background: var(--bg-secondary);
+    box-shadow: var(--box-shadow-inset);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    color: var(--primary);
+    transition: var(--transition);
+}
+#back-to-top .progress-value:hover{
+    color: var(--color-white);
+}
