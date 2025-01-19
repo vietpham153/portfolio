@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/vietpham153/portfolio/static/css/main.4b3eb7f0.css",
+    "main.js": "/vietpham153/portfolio/static/js/main.597170e5.js",
+    "static/media/design.png": "/vietpham153/portfolio/static/media/design.4b06cc29d5a51065e1c1.png",
+    "static/media/grid.svg": "/vietpham153/portfolio/static/media/grid.93f4b9db6165d338ce4d5a8bf046d5b1.svg",
+    "static/media/typing.png": "/vietpham153/portfolio/static/media/typing.e88b934baa30de96646f.png",
+    "static/media/client2.jpg": "/vietpham153/portfolio/static/media/client2.0a5aed3d2688f0a173a8.jpg",
+    "static/media/client5.jpg": "/vietpham153/portfolio/static/media/client5.d5e8fd4fe2e945188edc.jpg",
+    "static/media/about.png": "/vietpham153/portfolio/static/media/about.d2ad688ed1a8ca4c74dc.png",
+    "static/media/portfolio3.jpg": "/vietpham153/portfolio/static/media/portfolio3.f7d38c964c65023cac11.jpg",
+    "static/media/portfolio5.jpg": "/vietpham153/portfolio/static/media/portfolio5.f8c7e2fa8331aac79450.jpg",
+    "static/media/client3.jpg": "/vietpham153/portfolio/static/media/client3.a187d383052c7fb88c96.jpg",
+    "static/media/client6.jpg": "/vietpham153/portfolio/static/media/client6.6f9c2bfb6c10382a8443.jpg",
+    "static/media/portfolio4.jpg": "/vietpham153/portfolio/static/media/portfolio4.943555a17b180ddc8298.jpg",
+    "static/media/portfolio2.jpg": "/vietpham153/portfolio/static/media/portfolio2.00dc0e208697ac948af0.jpg",
+    "static/media/client1.jpg": "/vietpham153/portfolio/static/media/client1.12d4d6f42e98834029a6.jpg",
+    "static/media/client4.jpg": "/vietpham153/portfolio/static/media/client4.180669f1bc6d31b2f19b.jpg",
+    "static/media/portfolio1.jpg": "/vietpham153/portfolio/static/media/portfolio1.fc16cb0cd4eaa8c82752.jpg",
+    "static/media/portfolio6.jpg": "/vietpham153/portfolio/static/media/portfolio6.6af02f4afa82dfd64d26.jpg",
+    "static/media/Viet.png": "/vietpham153/portfolio/static/media/Viet.b7d4a7edc39cd121db6d.png",
+    "static/media/cv.pdf": "/vietpham153/portfolio/static/media/cv.1e2aa2c6d89b123818f2.pdf",
+    "static/media/optimization.png": "/vietpham153/portfolio/static/media/optimization.6fefd80a41f73dd5ad15.png",
+    "index.html": "/vietpham153/portfolio/index.html",
+    "static/media/blob.svg": "/vietpham153/portfolio/static/media/blob.c3c27481be470e57b98fc2e6b7e79d62.svg",
+    "main.4b3eb7f0.css.map": "/vietpham153/portfolio/static/css/main.4b3eb7f0.css.map",
+    "main.597170e5.js.map": "/vietpham153/portfolio/static/js/main.597170e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b3eb7f0.css",
+    "static/js/main.597170e5.js"
+  ]
+}
