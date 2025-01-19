@@ -6,9 +6,9 @@ const Footer = () => {
     return(
         <footer>
             <div className="footer__socials">
-                <a href="" target="_blank"><FaFacebookF /></a>
-                <a href="" target="_blank"><FaInstagram /></a>
-                <a href="" target="_blank"><IoLogoTwitter /></a>
+                <a href="#" target="_blank"><FaFacebookF /></a>
+                <a href="#" target="_blank"><FaInstagram /></a>
+                <a href="#" target="_blank"><IoLogoTwitter /></a>
             </div>
             <div className="copyright">
                 <p>&Copy; HoangViet. All right reserved</p>
