@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vietpham153/portfolio/static/css/main.4b3eb7f0.css",
-    "main.js": "/vietpham153/portfolio/static/js/main.5502ac53.js",
+    "main.css": "/vietpham153/portfolio/static/css/main.664a6acd.css",
+    "main.js": "/vietpham153/portfolio/static/js/main.601e4620.js",
     "static/media/design.png": "/vietpham153/portfolio/static/media/design.4b06cc29d5a51065e1c1.png",
     "static/media/grid.svg": "/vietpham153/portfolio/static/media/grid.93f4b9db6165d338ce4d5a8bf046d5b1.svg",
     "static/media/typing.png": "/vietpham153/portfolio/static/media/typing.e88b934baa30de96646f.png",
@@ -11,11 +11,11 @@
     "static/media/optimization.png": "/vietpham153/portfolio/static/media/optimization.6fefd80a41f73dd5ad15.png",
     "index.html": "/vietpham153/portfolio/index.html",
     "static/media/blob.svg": "/vietpham153/portfolio/static/media/blob.c3c27481be470e57b98fc2e6b7e79d62.svg",
-    "main.4b3eb7f0.css.map": "/vietpham153/portfolio/static/css/main.4b3eb7f0.css.map",
-    "main.5502ac53.js.map": "/vietpham153/portfolio/static/js/main.5502ac53.js.map"
+    "main.664a6acd.css.map": "/vietpham153/portfolio/static/css/main.664a6acd.css.map",
+    "main.601e4620.js.map": "/vietpham153/portfolio/static/js/main.601e4620.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3eb7f0.css",
-    "static/js/main.5502ac53.js"
+    "static/css/main.664a6acd.css",
+    "static/js/main.601e4620.js"
   ]
 }
