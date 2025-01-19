@@ -1,10 +1,6 @@
 {
   "name": "portfolio",
-<<<<<<< HEAD
   "homepage": "https://github.com/vietpham153/portfolio",
-=======
-  "homepage": "https://vietpham153.github.io/portfolio",
->>>>>>> 326edb45503bde1bc32d080ee3bfbe7f1782db4a
   "version": "0.1.0",
   "private": true,
   "dependencies": {
